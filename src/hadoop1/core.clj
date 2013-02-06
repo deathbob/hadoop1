@@ -16,6 +16,8 @@
   :map-reader wrap/int-string-map-reader
   :reduce my-reduce
   :input-format :text
+  :output-format :text
+  :compress-output false
   :input "README.txt"
   :output "tmp/out4"
   :replace true)
